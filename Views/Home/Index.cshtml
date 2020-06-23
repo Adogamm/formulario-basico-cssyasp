@@ -1,0 +1,50 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div>
+    <form class="form-group">
+
+        <div class="container">
+            <div class="row mx-md-5">
+                
+                    <label for="matricula">Matricula</label>
+                    <input type="text" class="form-control px-md-5" id="matricula">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" class="form-control px-md-5" id="nombre">
+                    <label for="primap">Primer apellido</label>
+                    <input type="text" class="form-control px-md-5" id="primap">
+                    <label for="segap">Segundo apellido</label>
+                    <input type="text" class="form-control px-md-5" id="segap">
+                <br><br>
+                <div class="col-sm">
+                    <label for="edad">Edad</label>
+                    <input type="number" class="form-control" id="edad">
+                </div>
+                <div class="col-sm">
+                    <label for="nacimiento">Fecha de nacimiento</label>
+                    <input type="date" class="form-control" id="nacimiento">
+                </div>
+                <div class="col-sm">
+                    <label for="estado">Estado</label>
+                    <select name="Estado" id="estado" class="form-control" aria-placeholder="Estado">
+                        <option value="empty">---</option>
+                        <option value="1">Chihuahua</option>
+                        <option value="2">Hidalgo</option>
+                        <option value="3">Puebla</option>
+                        <option value="4">Veracruz</option>
+                    </select>
+            </div>
+            <div class="col-lg">
+                <label for="estado">Sexo</label>
+                <select name="Sexo" id="sexo" class="form-control" aria-placeholder="sexo">
+                    <option value="empty">---</option>
+                    <option value="hombre">Hombre</option>
+                    <option value="mujer">Mujer</option>
+                </select><br><br>
+            </div>
+            <input type="submit" class="btn btn-outline-primary btn-lg btn-block">
+        </div>
+        
+    </form>
+</div>
